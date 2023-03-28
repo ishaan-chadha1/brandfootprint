@@ -1,13 +1,69 @@
-body {
+/* Set global styles */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #f5f5f5;
+}
+
+/* Style the page header */
+header {
+  background-color: #2e9cca;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+/* Style the content sections */
+.content {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 2rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Style the image containers */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.image-container img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  height: auto;
+}
+
+/* Align image container to the right */
+.image-right {
+  justify-content: flex-end;
+}
+
+/* Style the page footer */
+footer {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
 }
