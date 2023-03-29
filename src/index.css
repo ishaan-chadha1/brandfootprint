@@ -1,4 +1,9 @@
 /* Set global styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* ... existing Tailwind CSS styles ... */
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,6 +12,7 @@
 
 body {
   background-color: #f5f5f5;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Style the page header */
@@ -18,7 +24,7 @@ header {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 10rem;
 }
 
 /* Style the content sections */
