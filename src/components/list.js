@@ -1,6 +1,6 @@
 import React from 'react';
 
-const list = ({ items }) => {
+const List = ({ items }) => {
   return (
     <ul className="list-disc list-inside mx-auto max-w-2xl py-8">
       {items.map((item, index) => (
@@ -12,4 +12,4 @@ const list = ({ items }) => {
   );
 };
 
-export default list;
+export default List;

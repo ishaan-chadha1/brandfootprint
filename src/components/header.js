@@ -1,10 +1,10 @@
 import React from 'react';
 
-const header = () => {
+const Header = () => {
   return (
     <header className="bg-gray-900 text-white">
       <div className="mx-auto max-w-2xl py-8 px-4 flex justify-between items-center">
-        <h1 className="text-3xl font-bold">My Company Name</h1>
+        <h1 className="text-3xl font-bold">BrandFootprint</h1>
         <nav>
           <ul className="flex space-x-4">
             <li>
@@ -29,4 +29,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;
